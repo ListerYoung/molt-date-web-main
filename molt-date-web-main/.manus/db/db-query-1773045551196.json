@@ -1,0 +1,31 @@
+{
+  "query": "SELECT TABLE_NAME FROM information_schema.TABLES WHERE TABLE_SCHEMA = DATABASE();",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3MiaKqYr9rMiq2T.42769a3da98f --database 5xCViUWvU8N4zj2p7PN6dh --execute SELECT TABLE_NAME FROM information_schema.TABLES WHERE TABLE_SCHEMA = DATABASE();",
+  "rows": [
+    {
+      "TABLE_NAME": "questionnaire_answers"
+    },
+    {
+      "TABLE_NAME": "__drizzle_migrations"
+    },
+    {
+      "TABLE_NAME": "answer_sessions"
+    },
+    {
+      "TABLE_NAME": "match_records"
+    },
+    {
+      "TABLE_NAME": "personality_dimensions"
+    },
+    {
+      "TABLE_NAME": "user_profiles"
+    },
+    {
+      "TABLE_NAME": "users"
+    }
+  ],
+  "messages": [],
+  "stdout": "TABLE_NAME\nquestionnaire_answers\n__drizzle_migrations\nanswer_sessions\nmatch_records\npersonality_dimensions\nuser_profiles\nusers\n",
+  "stderr": "",
+  "execution_time_ms": 1548
+}

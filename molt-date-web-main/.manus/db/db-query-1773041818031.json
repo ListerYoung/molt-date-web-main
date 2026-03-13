@@ -1,0 +1,9 @@
+{
+  "query": "DROP TABLE IF EXISTS match_records; DROP TABLE IF EXISTS user_answers; DROP TABLE IF EXISTS answer_sessions; DROP TABLE IF EXISTS questions; DROP TABLE IF EXISTS personality_dimensions; DROP TABLE IF EXISTS user_personality_scores; DROP TABLE IF EXISTS __drizzle_migrations;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3MiaKqYr9rMiq2T.42769a3da98f --database 5xCViUWvU8N4zj2p7PN6dh --execute DROP TABLE IF EXISTS match_records; DROP TABLE IF EXISTS user_answers; DROP TABLE IF EXISTS answer_sessions; DROP TABLE IF EXISTS questions; DROP TABLE IF EXISTS personality_dimensions; DROP TABLE IF EXISTS user_personality_scores; DROP TABLE IF EXISTS __drizzle_migrations;",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 3904
+}

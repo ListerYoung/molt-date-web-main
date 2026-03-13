@@ -1,0 +1,31 @@
+{
+  "query": "SHOW TABLES;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3MiaKqYr9rMiq2T.42769a3da98f --database 5xCViUWvU8N4zj2p7PN6dh --execute SHOW TABLES;",
+  "rows": [
+    {
+      "Tables_in_5xCViUWvU8N4zj2p7PN6dh": "__drizzle_migrations"
+    },
+    {
+      "Tables_in_5xCViUWvU8N4zj2p7PN6dh": "answer_sessions"
+    },
+    {
+      "Tables_in_5xCViUWvU8N4zj2p7PN6dh": "match_records"
+    },
+    {
+      "Tables_in_5xCViUWvU8N4zj2p7PN6dh": "personality_dimensions"
+    },
+    {
+      "Tables_in_5xCViUWvU8N4zj2p7PN6dh": "questionnaire_answers"
+    },
+    {
+      "Tables_in_5xCViUWvU8N4zj2p7PN6dh": "user_profiles"
+    },
+    {
+      "Tables_in_5xCViUWvU8N4zj2p7PN6dh": "users"
+    }
+  ],
+  "messages": [],
+  "stdout": "Tables_in_5xCViUWvU8N4zj2p7PN6dh\n__drizzle_migrations\nanswer_sessions\nmatch_records\npersonality_dimensions\nquestionnaire_answers\nuser_profiles\nusers\n",
+  "stderr": "",
+  "execution_time_ms": 1518
+}

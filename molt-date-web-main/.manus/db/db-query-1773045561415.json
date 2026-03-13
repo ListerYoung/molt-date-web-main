@@ -1,0 +1,13 @@
+{
+  "query": "SELECT GROUP_CONCAT(TABLE_NAME SEPARATOR ', ') as tables FROM information_schema.TABLES WHERE TABLE_SCHEMA = DATABASE();",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3MiaKqYr9rMiq2T.42769a3da98f --database 5xCViUWvU8N4zj2p7PN6dh --execute SELECT GROUP_CONCAT(TABLE_NAME SEPARATOR ', ') as tables FROM information_schema.TABLES WHERE TABLE_SCHEMA = DATABASE();",
+  "rows": [
+    {
+      "tables": "personality_dimensions, user_profiles, users, questionnaire_answers, __drizzle_migrations, answer_sessions, match_records"
+    }
+  ],
+  "messages": [],
+  "stdout": "tables\npersonality_dimensions, user_profiles, users, questionnaire_answers, __drizzle_migrations, answer_sessions, match_records\n",
+  "stderr": "",
+  "execution_time_ms": 1598
+}

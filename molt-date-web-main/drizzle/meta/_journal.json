@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1773045724665,
+      "tag": "0000_organic_susan_delgado",
+      "breakpoints": true
+    }
+  ]
+}
